@@ -1,4 +1,4 @@
-package starter.stepdefinitions;
+package starter.stepsdefinitions;
 
 import io.cucumber.java.Before;
 import io.cucumber.java.en.And;
@@ -17,7 +17,7 @@ import utils.Constants;
 import static net.serenitybdd.screenplay.EventualConsequence.eventually;
 import static net.serenitybdd.screenplay.GivenWhenThen.seeThat;
 
-public class InnovativeITSoftwareServicesStepsDefinions {
+public class InnovativeITSoftwareServices {
 
     @Before
     public void setTheStage() {

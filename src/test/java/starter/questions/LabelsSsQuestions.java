@@ -73,6 +73,10 @@ public class LabelsSsQuestions {
         return actor -> EmpowerYourCareer.Title.resolveFor(actor).isVisible();
     }
 
+    public static Question<Boolean> getTitleContact() {
+        return actor -> ContactSales.messaggeSuccessfully.resolveFor(actor).isVisible();
+    }
+
     public static Question<Boolean> getTextEmpowerYourCareer() {
         return actor -> EmpowerYourCareer.Subtitle.resolveFor(actor).isVisible();
     }

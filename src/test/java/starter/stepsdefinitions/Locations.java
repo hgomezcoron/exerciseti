@@ -1,10 +1,9 @@
-package starter.stepdefinitions;
+package starter.stepsdefinitions;
 
 import io.cucumber.java.Before;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import io.cucumber.java.en_old.Ac;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.actions.Click;
 import net.serenitybdd.screenplay.actors.OnStage;
@@ -12,12 +11,11 @@ import net.serenitybdd.screenplay.actors.OnlineCast;
 import org.hamcrest.CoreMatchers;
 import starter.UI.SectionsPage;
 import starter.questions.LabelsSsQuestions;
-import starter.questions.SectionInformationQuestions;
 
 import static net.serenitybdd.screenplay.EventualConsequence.eventually;
 import static net.serenitybdd.screenplay.GivenWhenThen.seeThat;
 
-public class LocationsStepsDefinions {
+public class Locations {
 
     @Before
     public void setTheStage() {

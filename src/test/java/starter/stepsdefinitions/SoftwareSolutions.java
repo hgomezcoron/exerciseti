@@ -1,4 +1,4 @@
-package starter.stepdefinitions;
+package starter.stepsdefinitions;
 
 import io.cucumber.java.Before;
 import io.cucumber.java.ParameterType;
@@ -8,12 +8,10 @@ import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.actions.Click;
-import net.serenitybdd.screenplay.actions.Hover;
 import net.serenitybdd.screenplay.actors.OnStage;
 import net.serenitybdd.screenplay.actors.OnlineCast;
 import org.hamcrest.CoreMatchers;
 import starter.UI.SectionsPage;
-import starter.UI.SofwareSolutionsSections;
 import starter.navigation.NavigateTo;
 import starter.questions.LabelsSsQuestions;
 import starter.questions.SectionInformationQuestions;
@@ -24,7 +22,7 @@ import utils.Constants;
 import static net.serenitybdd.screenplay.EventualConsequence.eventually;
 import static net.serenitybdd.screenplay.GivenWhenThen.seeThat;
 
-public class TITestStepsDefinitions {
+public class SoftwareSolutions {
 
     @ParameterType(".*")
     public Actor actor(String actorName) {

@@ -39,6 +39,6 @@ public class ContactSales {
             Target.the("checkbox Announcements").locatedBy("(//span[@class='checkmark'])[2]");
 
     public static final Target messaggeSuccessfully =
-            Target.the("check messageSuccessfully").locatedBy("(//div[normalize-space()='THANK YOU FOR CONTACTING US!']");
+            Target.the("check messageSuccessfully").locatedBy("//div[normalize-space()='THANK YOU FOR CONTACTING US!']");
 
 }
