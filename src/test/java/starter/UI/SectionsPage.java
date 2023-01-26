@@ -1,7 +1,6 @@
 package starter.UI;
 
 import net.serenitybdd.screenplay.targets.Target;
-import org.openqa.selenium.By;
 
 import java.util.function.Function;
 

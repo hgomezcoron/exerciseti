@@ -1,5 +1,7 @@
+#enconde: iso-8859-1
 Feature: Validate different flows and scenarios are carried out to test the software Innovative IT Software Services section
 
+  @one
   Scenario Outline: Verify Innovative IT Software Services hover and labels
     Given Hans is researching the webpage Team International on the internet
     And he scroll on the section Innovative IT Software Services

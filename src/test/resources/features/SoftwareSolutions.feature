@@ -1,5 +1,7 @@
+#enconde: iso-8859-1
 Feature: Validate different flows and scenarios are carried out to test the software Solutions for Your Industry section
 
+  @two
   Scenario Outline: Scroll all page
     Given Hans is researching the webpage Team International on the internet
     When he scroll on the section <Section>

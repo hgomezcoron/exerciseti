@@ -1,5 +1,6 @@
 Feature: Validate form Contact Sales with the different flows
 
+  @one
   Scenario: Fill required information and send the form
     Given Hans is researching the webpage Team International on the internet
     And he scroll on the section Empower Your Career

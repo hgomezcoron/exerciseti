@@ -172,6 +172,8 @@ They reports are also integrated into the Maven build process: the following cod
 The sample projects both use some Serenity features which make configuring the tests easier. In particular, Serenity uses the `serenity.conf` file in the `src/test/resources` directory to configure test execution options.  
 ### Webdriver configuration
 The WebDriver configuration is managed entirely from this file, as illustrated below:
+
+Note: for run e2e test cases you can put headless.mode = false
 ```java
 serenity {
     take.screenshots = FOR_FAILURES

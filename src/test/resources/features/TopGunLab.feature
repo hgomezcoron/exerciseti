@@ -1,5 +1,6 @@
 Feature: Validate different flows and scenarios are carried out to test the Top Gun Labs section
 
+  @one
   Scenario Outline: Verify Top Gun Labs labels
     Given Hans is researching the webpage Team International on the internet
     When he scroll on the section Top Gun Lab
